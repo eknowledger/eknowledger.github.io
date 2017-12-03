@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Hello, World!"
 excerpt: "First blog post after years away from blogging!"
 tags: [general]
