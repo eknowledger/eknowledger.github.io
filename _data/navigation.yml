@@ -2,10 +2,10 @@
 main:
   - title: "Posts"
     url: /year-archive/
-  - title: "Articles"
-    url: /articles/
+  - title: "Projects"
+    url: /projects/
   - title: "RSS"
-    url: /feed.xml
+    url: http://feeds.feedburner.com/EknowledgerLog
   - title: "About"
     url: /about/
 

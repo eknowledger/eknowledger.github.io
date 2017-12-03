@@ -22,7 +22,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : https://eknowledger.disqus.com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "eknowledger" # https://eknowledger.disqus.com"" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -87,7 +87,7 @@ analytics:
 author:
   name             : "Ahmed Elmalt"
   avatar           : "/assets/img/aelmalt.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer."
+  bio              : "A Principle software engineer, solving hard problems, building great software, and having so much fun!"
   location         : "Los Angeles, CA"
   email            : "eknowledger@gmail.com"
   uri              : "https://eknowledger.github.io"
