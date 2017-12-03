@@ -2,8 +2,8 @@
 main:
   - title: "Posts"
     url: /year-archive/
-  #- title: "Projects"
-   # url: /projects/
+  - title: "Projects"
+    url: /projects/
   - title: "RSS"
     url: http://feeds.feedburner.com/EknowledgerLog
   - title: "About"
