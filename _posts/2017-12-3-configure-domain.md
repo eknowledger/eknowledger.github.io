@@ -28,7 +28,8 @@ The process of setting up a custom domain name for a [GitHub Pages](https://page
  4. Click `Add subdomain` on the right side menu.
  5. Choose a name for your subdomain
 
-**If** you would like to to redirect all traffic from root domain to your website, use `www` as your subdomain name {: .notice--success}
+**If** you would like to to redirect all traffic from root domain to your website, use `www` as your subdomain name.
+{: .notice--success}
 
 
  <img src="/files/subdomain_2017-12-03.png">
