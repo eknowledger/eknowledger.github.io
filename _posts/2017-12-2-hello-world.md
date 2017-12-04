@@ -7,12 +7,12 @@ share: true
 comments: true
 ---
 
-## New Begining
+## New Beginning
 
-It has been quit sometime since last time i blogged. (5 years to be exact). My old technical blog still alive on [eknowledger old blog](https://eknowledger.wordpress.com). I will keep my old blog as a refernce for myself and others. but i decided to move my new technical log to teh world of Jekyll and github pages.
+It has been quite sometime since last time I blogged. (5 years to be exact). My old technical blog still accessible [here](https://eknowledger.wordpress.com). I will it as a refernce for myself and others. I've decided to move my new technical blog to the world of static content blogging! I will use Jekyll and github pages power this blog.
 
 
-### Here are some of my best hits:
+## Best Hits
 
 * [The Way of Testivus – Unit Testing Wisdom](https://eknowledger.wordpress.com/2012/06/04/the-way-of-testivus-unit-testing-wisdom/)
 * [CLR 4.5: .Net Framework Kernel Improvements](https://eknowledger.wordpress.com/2012/05/04/clr-4-5-net-framework-kernel-improvements/)
@@ -31,4 +31,4 @@ It has been quit sometime since last time i blogged. (5 years to be exact). My o
 * [CLR 4.0: Type Embedding](https://eknowledger.wordpress.com/2012/04/24/clr-4-0-type-embedding/)
 
 
-To New Begining... 
+To New Beginning... 
