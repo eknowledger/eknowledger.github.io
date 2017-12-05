@@ -21,7 +21,6 @@ Given a sorted array, remove the duplicates in place such that each element appe
 
     Input : [1,2]
     Output: [1,2]
-
 ## Analysis
 
 The problem can be solved easily by using an extra temp array and copy the unique elements to the temp array. Or with a little more work to do all work in place, if we have memory constraints.
@@ -95,3 +94,52 @@ The algorithm will traverse the array forward, comparing element with next eleme
 Time Complexity  : `O(n)`
 Space Complexity : `O(1)`
 {: .notice--success}
+
+## Bouns
+
+What if duplicates are allowed at most **twice** ?
+
+### Example
+
+    Input : [1,2,2,2,3,3,3,3,4,5,5,5]
+    Output: [1,2,2,3,3,4,5]
+
+The solution still straightforward, we will use a counter for duplicates and check for how many duplicates desired
+
+**C#**
+{% highlight csharp %}
+        public static int[] RemoveDuplicates5(int[] array)
+        {
+            if (array.Length < 2)
+                return array;
+            // unique number index
+            int j = 0;
+            int k = 0; // count for how many duplicates allowed
+            for (int i = 0; i < array.Length - 1; i++)
+                if (array[i] != array[i + 1])
+                {
+                    array[j++] = array[i]; // array[j] = array[i]; j = j+1;
+                    k = 0;
+                }
+                else
+                {
+                    if (k < 1)
+                    {
+                        array[j++] = array[i];
+                        k = k + 1;
+                    }
+                }
+
+            array[j++] = array[array.Length - 1];
+
+            Array.Resize(ref array, j);
+            return array;
+        }
+
+{% endhighlight %}
+
+Time Complexity  : `O(n)`
+Space Complexity : `O(1)`
+{: .notice--success}
+
+_Happy Coding!_
