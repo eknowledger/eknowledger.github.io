@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Search Insert Position"
-excerpt: "Write a function to find index of element in an array or return, and if not found return index where it should be inserted in order."
+excerpt: "Write a function to find index of element in an array, and if not found return index where it should be inserted in order."
 tags: [interview,algorithm, data structure]
 share: true
 comments: true
@@ -27,9 +27,9 @@ Given a sorted array and a value, return the index if the target is found. If no
 
 ## Analysis
 
-An easy method to solve the problem is to iterate through the array comparing target with value if found return, if greater return index since this will be the location of insertion. ** Time Complexity: `O(n)` **
+An easy method to solve the problem is to iterate through the array comparing target with value if found return, if greater return index since this will be the location of insertion. Time Complexity: `O(n)`
 
-But we can do better! The problem is a search problem, and as we know `BinarySearch` is better algorithm for searching it will give us ** Time Complexity = `O(log(n))` **
+But we can do better! The problem is a search problem, and as we know `BinarySearch` is better algorithm for searching it will give us Time Complexity = `O(log(n))`
 
 ## Solution 1 - Using Recursion
 
