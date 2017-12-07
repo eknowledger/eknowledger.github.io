@@ -85,7 +85,7 @@ If we assume arrays are sorted and doesn't contain duplicates, this will simplif
     }
 {% endhighlight %}
 
-Time Complexity  : `O(nlong(n))`
+Time Complexity  : `O(nlog(n))`
 Space Complexity : `O(1)`
 {: .notice--success}
 
