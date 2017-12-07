@@ -50,4 +50,43 @@ Time Complexity  : `O(n)`
 Space Complexity : `O(1)`
 {: .notice--success}
 
+## Bouns
+
+Given an array of numbers, write a function to move all 0's to the end of it, while maintaining the relative order of non-zero elements.
+
+### Example
+
+    Input : [0,1,0,3,10] 
+    Output: [1,3,10,0,0]
+
+### Solution
+
+We can use the same method as before, where we maintain two index, `j` pointing at copy location where we will move elements. and `i` to traverse the array. We traverse the array forward coparing each element with 0 if not equal we copy element to `j` and zero out its location `i`.
+
+### Solution - CSharp
+
+{% highlight csharp %}
+    public static int[] MoveZeros(int[] array)
+    {
+        int j = 0;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if(array[i] != 0)
+            {
+                var temp = array[i];
+                array[i] = 0;
+                array[j++] = temp;
+            }
+        }
+
+        return array;
+    }
+{% endhighlight %}
+
+Time Complexity  : `O(n)`
+Space Complexity : `O(1)`
+{: .notice--success}
+
+
+
 _Happy Coding!_
