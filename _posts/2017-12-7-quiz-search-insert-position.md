@@ -2,7 +2,7 @@
 layout: single
 title: "Search Insert Position"
 excerpt: "Write a function to find index of element in an array, and if not found return index where it should be inserted in order."
-tags: [interview,algorithm, data structure]
+tags: [interview,algorithm, data structure, binary search]
 share: true
 comments: true
 ---
