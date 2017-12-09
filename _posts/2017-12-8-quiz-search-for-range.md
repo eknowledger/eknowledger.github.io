@@ -33,52 +33,6 @@ The problem forces us to think in `BinarySearch` algorithm's term, since the tim
 
 ## CSharp Solution
 
-{% highlight csharp %}
-    public static int[] SearchRange(int[] array, int target)
-    {
-        if (array == null || array.Length == 0)
-            return new[] { -1, -1};
-
-        int min = 0; int max = array.Length - 1;
-        return BinarySearchRange(array, min, max, target);
-    }
-
-    private static int[] BinarySearchRange(int[] array, int min, int max, int value)
-    {
-        if (min > max)
-            return new[] { -1, -1 };
-
-        if (value == array[min] && value == array[max])
-            return new[] { min, max };
-
-        var mid = (min + max) / 2;
-        int leftIndex = -1;
-        int rightIndex = -1;
-
-        if (value < array[mid])
-            return BinarySearchRange(array, min, mid-1, value);
-        else if (value > array[mid])
-            return BinarySearchRange(array, mid+1, max, value);
-        else
-        {
-            leftIndex = mid;
-            rightIndex = mid;
-
-            //traverse backward lookin up for first occurance of value
-            var i = mid;
-            while (i > min && array[i] ==  value)
-                leftIndex = i--; // move backward
-
-            //traverse forward lookin up for last occurance of value
-            var j = mid;
-            while (j < max && array[j] == value)
-                rightIndex = j++; // move forward
-        }
-
-        return new[] { leftIndex, rightIndex };
-    }
-{% endhighlight %}
-
 {% gist 5eaa9523a9df4c225f67f3558c3c64b4 %}
 
 _Happy Coding!_
