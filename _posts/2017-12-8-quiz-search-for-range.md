@@ -79,6 +79,6 @@ The problem forces us to think in `BinarySearch` algorithm's term, since the tim
     }
 {% endhighlight %}
 
-{% gist https://gist.github.com/eknowledger/5eaa9523a9df4c225f67f3558c3c64b4 %}
+{% gist 5eaa9523a9df4c225f67f3558c3c64b4 %}
 
 _Happy Coding!_
