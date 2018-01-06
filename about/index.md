@@ -7,7 +7,7 @@ author_profile: true
 toc: true
 ---
 
-[Download Resume](/files/AhmedElmalt.Resume.pdf)
+[Download Resume](/files/AhmedElmalt.Resume.pdf){: .btn .btn--info}
 
 # Summary
 Accomplished leader, architect, and technical evangelist with a strong and functional knowledge of core enterprise systems and architectures in multiple domains including SaaS Cloud Platforms, CRM Solutions, Government Gateways, Talent Management, Healthcare Management, E-Commerce, and E-learning Solutions. Proven track record of over 15 years of broad, deep, and rich software development hands-on experience and strong academic background in evaluating, implementing, evolving, and governing hardware, software and solutions. Creative professional with extensive support in the overall enterprise architecture across multiple lines of business, developing and driving short/long term architecture strategy, providing cost effective solutions, and supporting the development of architecture principles, styles, patterns and standards. 
@@ -125,26 +125,3 @@ As a senior software engineer, my team and I were responsible for design, archit
 ## ✦ Writer
 
 Several articles, and publications on my personal blog such as **WCF in 10 minutes**, **What’s new in CLR 4.0**, **Agile+**, T**he Future of Programming Languages**, **Multicore Just-in Time**, **Unit Testing Wisdom**, and others. All articles can be accessed on my personal blog. [http://www.eknowledger.com](http://www.eknowledger.com)
-
-# ✦ Key Skills
-
-### ✦ Programming Languages
-`C#`, `Java`, `C++`, `F#`, `ML`, `Ruby`, `JavaScript`, `TypeScript`, `Scala`, `PowerShell`, `Python`, `XML`, `HTML`, `CSS`
-
-## ✦ Frameworks
-`.Net`, `.Net Core`, `Asp.net`, `WCF`, `WF`, `Web API`, `AngularJS`, `ReactJS`, `Bootstrap`, `Entity Framework`, `Dapper`, `NodeJS`, `RFID`, `.Net Remoting`, `Socket Programming`, `AJAX`, `NHibernate`, `TPL`, `RX.Net`, `Azure App Service`, `Azure Service Bus`, `Azure Functions`, `Azure Automation`, `ActiveMQ`, `RabbitMQ`
-
-## ✦ Concepts
-`Algorithms and Data Structure`, `Distribute Systems Architecture`, `Object Oriented & Functional Programming`, `Event Driven Programming`, `Aspect Oriented Programming (AOP)`, `Service Oriented Architecture`, `Microservice & Serverless Architecture`, `Domain Driven Design`, `Design Patterns`, `REST`, `CQRS`, `Event Sourcing`, `IOC`, `DI`, `DSL`, `OAuth`, `SAML 2`, `OpenID`
-
-## ✦ Methodologies
-`Agile`, `Scrum`, `Kanban`, `MSF`, `RUP`, `XP`, `TDD`, `UML`, `Secure SDLC`, `OWASP`
-
-## ✦ Database Engines
-`SQL Server`, `Azure SQL`, `MongoDB`, `Redis Cache`, `ElasticSearch`, `PostgreSQL`, `Azure Storage`, `SQLite`
-
-## ✦ Development Tools
-`Visual Studio`, `Visual Studio Code`, `Git`, `GitHub`, `NUnit`, `NCover`, `TeamCity`, `OctopusDeploy`, `Fiddler`, `Wireshark`, `Postman`, `Azure Resource Manager`, `DebugDiag`, `Raygun`, `NewRelic`, `Jira`, `Vagrant`, `Packer`
-
-## ✦ Languages
-`English`, `Arabic`
