@@ -263,3 +263,6 @@ defaults:
       author_profile: true
 
 #remote_theme: "mmistakes/minimal-mistakes"
+# comment next just for dev
+# gist:
+#   noscript: false
