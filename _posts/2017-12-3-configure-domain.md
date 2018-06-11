@@ -7,17 +7,17 @@ share: true
 comments: true
 ---
 
-The process of setting up a custom domain name for a [GitHub Pages](https://pages.github.com/) website is striaght forward, but it could be confusing if you haven't setup a domain before. I will use [1&1](https://www.1and1.com) a domain name register to setup GitHub Pages website domain. the process should be similar using other domain registers such as [GoDaddy](https://www.godaddy.com/).
+The process of setting up a custom domain name for a [GitHub Pages](https://pages.github.com/) website is straight forward, but it could be confusing if you haven't setup a domain before. I will use [1&1](https://www.1and1.com) a domain name register to setup GitHub Pages website domain. The process should be similar using other domain registers such as [GoDaddy](https://www.godaddy.com/).
 
 ## Configure domain on GitHub
 
- First we start by setting up the domain name on GitHub Pages repository. under you GitHub repository settings, Find GiHub Pages section then set Custom domain to your domain name and hit save.
+ First we start by setting up the domain name on GitHub Pages repository. Under your GitHub repository settings, find GitHub Pages section then set Custom domain to your domain name and hit save.
 
  <img src="/files/github_domain_2017-12-03.png">
 
 ## Configure Subdomain CNAME
 
- At this point your github website is configured and ready to receive traffic from your domain register dns! The next step is to configure a subdomain for your website. follow the steps:
+ At this point your GitHub website is configured and ready to receive traffic from your domain register dns! The next step is to configure a subdomain for your website. Follow these steps:
 
  1. Login to your 1&1 account.
  2. Click Domains from left side menu.
@@ -35,8 +35,8 @@ The process of setting up a custom domain name for a [GitHub Pages](https://page
  <img src="/files/subdomain_2017-12-03.png">
 
  6. Click edit domain settings on the newly created subdomain.
- 7. To setup a `CNAME` or a traget for dns to forward traffic to, choose `CNAME` in **A/AAAA and CNAME Records** section
- 8. Then enter your GitHub pages url under **Alias** `username.github.io`
+ 7. To setup a `CNAME` or a traget for DNS to forward traffic to, choose `CNAME` in **A/AAAA and CNAME Records** section
+ 8. Then enter your GitHub pages URL under **Alias** `username.github.io`
 
  <img src="/files/cname_2017-12-03.png">
 
