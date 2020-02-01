@@ -152,9 +152,7 @@ We minimally process the data to make it amenable to analysis as follows:
 - fill in any missing data with the average value for that column
 - delete the date and the value ```sqft_basement```
 
-You'll get a chance to use it later on (no need to always reinvent the wheel), so let me briefly introduce the most common implementation of linear regression, the one that is found in sklearn. 
-
-sklearn is the standard package used for the majority of (non-neural network based) machine learning techniques. It contains nice implementations with a common interface for the majority of commonly encountered techniques. You can dig into the documentation for details, but for now, let me show you how to use it for our problem. You can also use this snippet to check your computation in Question 4.
+We don't have to reinvent the wheel, so we will use the most common implementation of linear regression, found in sklearn library. sklearn is the standard package used for the majority of (non-neural network based) machine learning techniques. It contains nice implementations with a common interface for the majority of commonly encountered techniques.
 
 
 {% highlight python %}
