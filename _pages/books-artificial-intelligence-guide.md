@@ -70,7 +70,7 @@ AI spring is once again in full bloom.
 
 # Barrier of Meaning
 
-<img src="/files/aig_04.png" alt="Four sample Bongard problems. For each problem, the task is to determine what concepts distinguish the six boxes on the left from the six boxes on the right. For example, for Bongard problem 2, the concepts are large versus small."/>{: .align-center}
+<img src="/files/Aig_04.png" alt="Four sample Bongard problems. For each problem, the task is to determine what concepts distinguish the six boxes on the left from the six boxes on the right. For example, for Bongard problem 2, the concepts are large versus small."/>{: .align-center}
 <figure>
     <figcaption style="text-align: center;">Four sample Bongard problems. For each problem, the task is to determine what concepts distinguish the six boxes on the left from the six boxes on the right. For example, for Bongard problem 2, the concepts are large versus small.</figcaption>
 </figure> {: .align-center}
